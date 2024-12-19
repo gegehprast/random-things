@@ -36,5 +36,5 @@ su - ${USER}
 ##Confirm that your user is now added to the docker group by typing:
 groups
 
-##If you need to add a user to the docker group that you’re not logged in as, declare that username explicitly using:
-sudo usermod -aG docker gegeh
+##If you need to add a user to the docker group that you’re not logged in as, declare that username explicitly using (replace <youruser>):
+sudo usermod -aG docker <youruser>
